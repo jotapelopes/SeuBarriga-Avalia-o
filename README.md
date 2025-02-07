@@ -36,6 +36,26 @@ Para rodar o projeto em uma pasta local, execute os comandos abaixo:
    npx cypress run
    ```
 
+## Observação: Credênciais utilizadas
+
+Como não é possível realizar a exclusão do usuário ao fim da execução dos testes, as credênciais utilizadas podem interferir no resultado esperado da tela de cadastro (por exemplo), por esse motivo acesse as credênciais configuradas no arquivo `cypress/fixtures/usuarios.json`.
+
+### Como corrigir:
+
+1. **Abra o arquivo** `cypress/fixtures/usuarios.json`.
+2. **Verifique ou atualize as credenciais** com os dados novos. O formato do arquivo deve ser algo assim:
+
+```json
+{
+  "usuarioExistente": {
+    "email": "usuario@exemplo.com",
+    "senha": "senhaDeTeste"
+  }
+}
+```
+
+3. Salve o arquivo e reexecute os testes.
+
 # Funcionalidades testadas
 
 - Login
