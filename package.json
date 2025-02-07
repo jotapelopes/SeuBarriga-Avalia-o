@@ -1,0 +1,27 @@
+{
+  "name": "seubarriga-avalia-o",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jotapelopes/SeuBarriga-Avalia-o#readme",
+  "bugs": {
+    "url": "https://github.com/jotapelopes/SeuBarriga-Avalia-o/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotapelopes/SeuBarriga-Avalia-o.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions"
+  }
+}

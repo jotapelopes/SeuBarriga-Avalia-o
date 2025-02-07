@@ -1,0 +1,12 @@
+{
+  "usuarioNovo": {
+    "nome": "Usuário Novo",
+    "email": "novo.usuario01@gmail.com",
+    "senha": "teste1234"
+  },
+  "usuarioExistente": {
+    "nome": "Usuário existente",
+    "email": "usuario.existente01@gmail.com",
+    "senha": "teste1234"
+  }
+}
